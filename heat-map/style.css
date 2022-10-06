@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, p {
+    margin: 0;
+    text-align: center;
+}
+
+#tooltip {
+    position: absolute;
+    padding: 0.5rem 1rem;
+
+    text-align: center;
+    color: white;
+
+    background-color: rgba(15, 15, 15, 0.74);
+    border-radius: 5px;
+    opacity: 0;
+    pointer-events: none;
+}
